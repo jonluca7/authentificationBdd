@@ -37,7 +37,7 @@ try{
    }
 
 }catch(Exception $e){
-    echo 'Connexion impossible de se connecter à la base de données :' . $e->getmessage();
+    echo 'Impossible de se connecter à la base de données :' . $e->getmessage();
 }
 
 
